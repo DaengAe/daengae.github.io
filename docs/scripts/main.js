@@ -538,3 +538,14 @@ $(document).bind('keydown',function(e){
 		e.returnValue = false;
 	}
 });
+
+$(".leftBtn").on("touchstart",function(e){
+	e.preventDefault();
+	_this.leftDownHandler();
+   }).on("touchend",function(e){
+	e.preventDefault();
+	_this.leftUpHandler();
+   }).on("touchmove",function(e){
+	e.preventDefault();
+	//_this.rightDownHandler();
+  })
