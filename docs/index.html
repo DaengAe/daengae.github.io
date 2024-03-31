@@ -351,8 +351,10 @@ if(findGetParameter('gift')=='false'){
             <section class="money-section">
                 <hr class="my-hr1">
                 <br><br>
-				<div class="sec-tit">신랑신부에게 마음 전하기</div>
-				<div class="sec-txt">축하의 마음을 담아 축의금을 전달해보세요.</div>
+				<div class="sec-tit" style="font-size:25px">신랑신부에게 마음 전하기</div>
+                <br>
+				<div class="sec-txt" style="font-size:15px">축하의 마음을 담아 축의금을 전달해보세요.</div>
+                <br><br>
             </section>
 
 
@@ -360,6 +362,9 @@ if(findGetParameter('gift')=='false'){
 			<section class="account-section">
                 
                 <div class="container">
+                    <div class="maum" style="font-size:20px; font-family: Noto Serif KR; margin-bottom: 10px;">
+                        신랑측 마음
+                    </div>
                     <div class="modal-btn-box">
                         <button type="button" class="collapsible" id="modal-open">계좌번호 보기</button>
                     </div>
@@ -384,6 +389,14 @@ if(findGetParameter('gift')=='false'){
                                 <!-- 복사하기 -->
                                 <button type="button" class="collapsible" onclick="copy();">복사</button>
 
+                                <P>예금주 : 김지상</P>
+                                <!-- 복사하려는 문구를 value값에 입력 -->
+                                <input type="text" value="국민 50123456789" id="copyTxt1" readonly/>
+
+                                <!-- 복사하기 -->
+                                <button type="button" class="collapsible" onclick="copy1();">복사</button>
+
+
                                 <P>예금주 : 임예주</P>
                                 <!-- 복사하려는 문구를 value값에 입력 -->
                                 <input type="text" value="국민 000123456789" id="copyTxt2" readonly/>
@@ -400,9 +413,67 @@ if(findGetParameter('gift')=='false'){
                       </div>
                   </div>
                 </div>
+				
+			</section>
+
+            <section class="account-section">
+                
+                <div class="container">
+                    <div class="maum" style="font-size:20px; font-family: Noto Serif KR; margin-bottom: 10px;">
+                        신부측 마음
+                    </div>
+                    <div class="modal-btn-box2">
+                        <button type="button" class="collapsible2" id="modal-open2">계좌번호 보기</button>
+                    </div>
+                    
+                    <div style="z-index: 30;" class="popup-wrap" id="popup2">
+                      <div class="popup2">
+                        <div class="popup-head">
+                            <span class="head-title">
+                              마음 전하기</span>
+                        </div>
+                        <div class="popup-body">
+                          <div class="body-content">
+                            
+                            <div class="body-titlebox">
+                              계좌번호
+                            </div>
+                            <div class="body-contentbox2">
+                                <P>예금주 : 김지상</P>
+                                <!-- 복사하려는 문구를 value값에 입력 -->
+                                <input type="text" value="국민 200123456789" id="copyTxt3" readonly/>
+
+                                <!-- 복사하기 -->
+                                <button type="button" class="collapsible2" onclick="copy3();">복사</button>
+
+                                <P>예금주 : 임예주</P>
+                                <!-- 복사하려는 문구를 value값에 입력 -->
+                                <input type="text" value="국민 300123456789" id="copyTxt4" readonly/>
+
+                                <!-- 복사하기 -->
+                                <button type="button" class="collapsible2" onclick="copy4();">복사</button>
+                              
+                                <P>예금주 : 김지상</P>
+                                <!-- 복사하려는 문구를 value값에 입력 -->
+                                <input type="text" value="국민 200123456789" id="copyTxt5" readonly/>
+
+                                <!-- 복사하기 -->
+                                <button type="button" class="collapsible2" onclick="copy5();">복사</button>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="popup-foot">
+                          <span class="pop-btn confirm2" id="confirm2">확인</span>
+                        </div>
+                      </div>
+                  </div>
+                </div>
                 <br><br>
 				<hr class="my-hr1">
 			</section>
+
+            
 			<!--// 축의금 계좌번호-->
 
             
