@@ -522,3 +522,19 @@ $(function(){
     // 복사완료에 대해 Alert으로 띄우기
     alert("복사되었습니다.");
   }
+
+
+
+
+  //안드로이드 우측 버튼 비활성
+  $(document).bind("contextmenu", function(e) {
+	return false;
+ });
+
+//pc F12 개발자도구 비활성
+$(document).bind('keydown',function(e){
+	if ( e.keyCode == 123) {
+		e.preventDefault();
+		e.returnValue = false;
+	}
+});
