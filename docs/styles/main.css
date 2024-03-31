@@ -16901,9 +16901,31 @@ body {
             transition: max-height 0.2s ease-out;
             background-color: #fff;
         }
-        .collapsible:after {
-            
+
+        .collapsible2 {
+            background:#FF6666;
+            color: #fff;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: center;
+            outline: none;
+            font-size: 15px;
+            border-radius: 50px 50px 50px 50px;
         }
+        .active,
+        .collapsible2:hover {
+            background-color: #FF9999;
+        }
+        .content {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #fff;
+        }
+
         .active:after {
             content: "\2212";
         }
@@ -16924,10 +16946,20 @@ body {
             margin-bottom:0px;
             text-align:left;
           }
+          .body-contentbox2 p{
+            margin-top:20px;
+            margin-left:40px;
+            margin-bottom:0px;
+            text-align:left;
+          }
           .container{
             width:100%;
           }
           .modal-btn-box{
+            width:100%;
+            text-align:center;
+          }
+          .modal-btn-box2{
             width:100%;
             text-align:center;
           }
@@ -16943,6 +16975,18 @@ body {
             padding-top:13px;
             color:#fff;
           }
+          .modal-btn-box2 button{
+            font-family:Noto Serif KR;
+            font-size:15px;
+            display:inline-block;
+            width:250px;
+            height:50px;
+            background-color:#FF6666;
+            border:1px solid #e1e1e1;
+            cursor:pointer;
+            padding-top:13px;
+            color:#fff;
+          }
 
         .body-contentbox button{
             font-family:Noto Serif KR;
@@ -16951,6 +16995,18 @@ body {
             width:80px;
             height:30px;
             background-color:#66B2FF;
+            border:1px solid #e1e1e1;
+            cursor:pointer;
+            padding-top:3px;
+            color:#fff;
+        }
+        .body-contentbox2 button{
+            font-family:Noto Serif KR;
+            font-size:15px;
+            display:inline-block;
+            width:80px;
+            height:30px;
+            background-color:#FF6666;
             border:1px solid #e1e1e1;
             cursor:pointer;
             padding-top:3px;
@@ -16978,6 +17034,16 @@ body {
             border-radius:10px;
             overflow:hidden;
             background-color:#99CCFF;
+            box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
+          }
+          .popup2{
+            font-family:Noto Serif KR;
+            width:100%;
+            max-width:400px;
+            background-color:#ffffff;
+            border-radius:10px;
+            overflow:hidden;
+            background-color:#FF9999;
             box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
           }
           .popup-head{
@@ -17015,7 +17081,13 @@ body {
             word-break:break-word;
             overflow-y:auto;
             min-height:100px;
-            max-height:200px;
+            max-height:300px;
+          }
+          .body-contentbox2{
+            word-break:break-word;
+            overflow-y:auto;
+            min-height:100px;
+            max-height:300px;
           }
           .popup-foot{
             width:100%;
@@ -17035,13 +17107,29 @@ body {
             border-right:1px solid #99CCFF;
           }
 
+          .pop-btn.confirm2{
+            border-right:1px solid #FF9999;
+          }
 
           #copyTxt{
+            border-width: 0px;
+          }
+          #copyTxt1{
             border-width: 0px;
           }
           #copyTxt2{
             border-width: 0px;
           }
+          #copyTxt3{
+            border-width: 0px;
+          }
+          #copyTxt4{
+            border-width: 0px;
+          }
+          #copyTxt5{
+            border-width: 0px;
+          }
+
 
         .body-contentbox.button{
             height: 50px;
@@ -17060,6 +17148,31 @@ body {
             border: 2px solid #3399FF;
             transition: all 0.3s ease;
             
+        }
+
+        .body-contentbox2.button{
+            height: 50px;
+            width: 50px;
+            border-radius: 60%;
+
+            background: #FF3333;
+
+            text-align: center;
+            line-height: 45px;
+            font-size: 15px;
+            color: white;
+
+            margin: 0 10px;
+
+            border: 2px solid #FF3333;
+            transition: all 0.3s ease;
+            
+        }
+        
+
+        .container.maum{
+            font-family: Noto Serif KR;
+            font-size: 25px;
         }
           
 
