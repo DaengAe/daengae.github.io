@@ -43,7 +43,9 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-img {-webkit-touch-callout:none;}
+/* 아이폰 이미지 저장 막기 */
+body { -webkit-touch-callout:none;}
+
 html {
     font-family: sans-serif;
     line-height: 1.15;
