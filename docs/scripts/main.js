@@ -418,6 +418,21 @@ $(function(){
   });
 
 
+  $(function(){
+    $("#confirm2").click(function(){
+        modalClose();
+        //컨펌 이벤트 처리
+    });
+    $("#modal-open2").click(function(){$("#popup2").css('display','flex').hide().fadeIn();
+    });
+    $("#close").click(function(){
+        modalClose();
+    });
+    function modalClose(){
+      $("#popup2").fadeOut();
+    }
+  });
+
   function copy() {
     // 복사문구값 가져오기
     var copyTxt = document.getElementById("copyTxt");
@@ -433,9 +448,69 @@ $(function(){
     alert("복사되었습니다.");
   }
 
+  function copy1() {
+    // 복사문구값 가져오기
+    var copyTxt = document.getElementById("copyTxt1");
+  
+    // 복사문구 선택
+    copyTxt.select();
+    copyTxt.setSelectionRange(0, 99999); // Mobile 대응
+  
+     // 복사
+    navigator.clipboard.writeText(copyTxt.value);
+  
+    // 복사완료에 대해 Alert으로 띄우기
+    alert("복사되었습니다.");
+  }
+
   function copy2() {
     // 복사문구값 가져오기
     var copyTxt = document.getElementById("copyTxt2");
+  
+    // 복사문구 선택
+    copyTxt.select();
+    copyTxt.setSelectionRange(0, 99999); // Mobile 대응
+  
+     // 복사
+    navigator.clipboard.writeText(copyTxt.value);
+  
+    // 복사완료에 대해 Alert으로 띄우기
+    alert("복사되었습니다.");
+  }
+
+  function copy3() {
+    // 복사문구값 가져오기
+    var copyTxt = document.getElementById("copyTxt3");
+  
+    // 복사문구 선택
+    copyTxt.select();
+    copyTxt.setSelectionRange(0, 99999); // Mobile 대응
+  
+     // 복사
+    navigator.clipboard.writeText(copyTxt.value);
+  
+    // 복사완료에 대해 Alert으로 띄우기
+    alert("복사되었습니다.");
+  }
+
+  function copy4() {
+    // 복사문구값 가져오기
+    var copyTxt = document.getElementById("copyTxt4");
+  
+    // 복사문구 선택
+    copyTxt.select();
+    copyTxt.setSelectionRange(0, 99999); // Mobile 대응
+  
+     // 복사
+    navigator.clipboard.writeText(copyTxt.value);
+  
+    // 복사완료에 대해 Alert으로 띄우기
+    alert("복사되었습니다.");
+  }
+
+  function copy5() {
+    // 복사문구값 가져오기
+    var copyTxt = document.getElementById("copyTxt5");
   
     // 복사문구 선택
     copyTxt.select();
