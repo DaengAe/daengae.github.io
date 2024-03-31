@@ -10484,8 +10484,8 @@ body {
     transition: all 0.3s ease;
 }
 .honju-btn a {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 
     background: #3399FF;
@@ -10506,6 +10506,7 @@ body {
     width: 20px;
 }
 .honju-btn a img{
+    margin-bottom:10px;
     height: 20px;
     width: 20px;
 }
@@ -10527,8 +10528,9 @@ body {
     transition: all 0.3s ease;
 }
 .honju-btn.a.tel.sl {
-    height: 50px;
-    width: 50px;
+    left:-50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 
     background: #99CCFF;
@@ -10561,8 +10563,9 @@ body {
     transition: all 0.3s ease;
 }
 .honju-btn.a.tel.sb {
-    height: 50px;
-    width: 50px;
+    left:-50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 
     background: #FF9999;
@@ -10595,8 +10598,8 @@ body {
     transition: all 0.3s ease;
 }
 .honju-btn.a.sms {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 
     background: #C0C0C0;
@@ -10737,6 +10740,10 @@ body {
 	white-space:pre-wrap;
 }
 .honjuTel-section .honju-btn{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
 	float:left;
 	margin-left:1.250rem;
 	font-size:0;
