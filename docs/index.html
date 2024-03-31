@@ -562,5 +562,10 @@ if(findGetParameter('gift')=='false'){
 
 <script type="text/javascript">/*<![CDATA[*/
     document.addEventListener("contextmenu",function(e){"IMG"===e.target.nodeName&&e.preventDefault()},!1);/*]]>*/</script>
+<script>window.oncontextmenu = function(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    return false;
+};</script>
 </body>
 </html>
