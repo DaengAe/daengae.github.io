@@ -108,6 +108,8 @@ if(findGetParameter('gift')=='false'){
 </head>
 <style>
     .my-hr1{border:0; height: 2px;background: #ccc; text-align: center;margin: 0px auto;}
+
+    .my-hr2{width:5%; border:0; height: 1.25px;background: #856C6A; text-align: center;margin: 0px auto;}
 </style>
 
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydownn="return false" id="top">
@@ -116,10 +118,7 @@ if(findGetParameter('gift')=='false'){
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v3.2"></script>
 <div oncontextmenu="return false;" ondragstart="return false;" ondrop="return false;" class="page-content">
     <div class="div">
-        <div>
-            <img src="images/yj/JSYJ01.jpg" style="width:100% ; height:100%; object-fit: contain;max-width: 500px;
-                                                    margin: auto; display: block;" >
-        </div>
+        
         <div class="ww-nav-bar sticky-top bg-light">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
@@ -130,10 +129,11 @@ if(findGetParameter('gift')=='false'){
                     </button>
                     <div class="collapse navbar-collapse text-uppercase" id="ww-navbarNav">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#home">Home</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#couple">Couple</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#events">Events</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#gallery">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#invitation">예식 일정 & 장소 안내</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#gallery">사진첩</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#money">마음 전하실 곳</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#map">오시는 길</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -165,11 +165,18 @@ if(findGetParameter('gift')=='false'){
 
         -->
 
-        <hr class="my-hr1">
+       
         <div class="ww-section bg-light" id="events">
             <div class="container2 ww-wedding-event">
 
-                <div>
+                <div id="home">
+                    <img src="images/yj/JSYJ01.jpg" style="width:100% ; height:100%; object-fit: contain;max-width: 500px;
+                                                            margin: auto; display: block;" >
+                </div>
+                
+                <br><hr class="my-hr2"><br>
+
+                <div id="invitation">
                     <img src="images/yj/JSYJ02.jpg" style="width:100% ; height:100%; object-fit: contain;max-width: 500px;
                                                     margin: auto; display: block;" >
                 </div>
@@ -234,8 +241,8 @@ if(findGetParameter('gift')=='false'){
         </div>
         
 
-        <br><br><br><br>
-            <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif; font-size: 30px;">Gallery</h2>
+        <br><br>
+            <h2 id="gallery" class="h1 text-center pb-3 ww-title" style="font-family: noto-sans kr; font-size: 30px;">Gallery</h2>
         
 
 
@@ -250,7 +257,7 @@ if(findGetParameter('gift')=='false'){
             <div class="slider-2">
                 
                  <div class="side-btns">
-                    <div><span><i class="fas fa-caret-left"></i></i></span></div>
+                    <div><span><i class="fas fa-caret-left"></i></span></div>
                     <div><span><i class="fas fa-caret-right"></i></span></div>
                 </div>
                 
@@ -381,12 +388,11 @@ if(findGetParameter('gift')=='false'){
             <br><br><br>
             <hr class="my-hr1">
             
-            <section class="money-section">
+            <section id="money"class="money-section">
                 
                 <br><br>
-				<div class="sec-tit" style="font-size:25px">마음 전하실 곳</div>
-                <br>
-				<div class="sec-txt" style="font-size:15px">축하의 마음을 담아 축의금을 전달해보세요.</div>
+				<div class="sec-tit" style="font-size:25px; margin-bottom: 10px;">마음 전하실 곳</div>
+				<div class="sec-txt" style="font-size:15px; font-family: noto-sans kr;">축하의 마음을 담아 축의금을 전달해보세요.</div>
                 <br>
             </section>
 
@@ -517,12 +523,13 @@ if(findGetParameter('gift')=='false'){
        
         <div class="ww-section ww-rsvp-detail" id="map">
             <div class="container">
-                <div class="col text-center">
-                    <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif; font-size:25px">오시는 길</h2>
+                <div id="map" class="col text-center">
+                    <br><br>
+                    <h2 class="h1 text-center pb-3 ww-title" style="font-family: noto-sans kr; font-size:25px">오시는 길</h2>
                     <div>
-                        <h5 style="font-family: 'Noto Serif KR', serif; font-size: 17px">더화이트베일 1층 화이트베일홀</h5>
+                        <h5 style="font-family: noto-sans kr; font-size: 17px">더화이트베일 1층 화이트베일홀</h5>
                         
-                        <div class="map-txt" style="font-size:15px">서울 서초구 서초중앙로 14</div>
+                        <div class="map-txt" style="font-size:15px; font-family: noto-sans kr;">서울 서초구 서초중앙로 14</div>
                     </div>
 
                     <div class="my-3 text-center">
@@ -551,9 +558,9 @@ if(findGetParameter('gift')=='false'){
                             
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.033820161459!2d127.01535357572055!3d37.48352827206034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca115edfafce5%3A0x20e3375fcce71a94!2z642U7ZmU7J207Yq467Kg7J28!5e0!3m2!1sko!2skr!4v1712159842645!5m2!1sko!2skr" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
-                        <div class="map-txt" style="font-size:15px; margin-bottom: 5px;">3호선 남부터미널역 4번 출구로 나와</div>
-                        <div class="map-txt" style="font-size:15px">도보로 100m 거리에 위치해 있습니다.</div>
-                        
+                        <div class="map-txt" style="font-family: noto-sans kr; font-size:15px; margin-bottom: 5px;">3호선 남부터미널역 4번 출구로 나와</div>
+                        <div class="map-txt" style="font-family: noto-sans kr; font-size:15px">도보로 100m 거리에 위치해 있습니다.</div>
+                        <br><br><br><br>
                         
                     </div>
                 </div>
