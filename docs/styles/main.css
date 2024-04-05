@@ -586,6 +586,13 @@ pre code {
     margin-right: auto;
     margin-left: auto;
 }
+.container2 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 @media (min-width: 576px) {
     .container {
@@ -4100,7 +4107,7 @@ tbody.collapse.show {
 
 .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1rem;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4116,7 +4123,7 @@ tbody.collapse.show {
 }
 
 .nav-tabs .nav-item {
-    margin-bottom: -1px;
+    margin-bottom: 0px;
 }
 
 .nav-tabs .nav-link {
@@ -4228,6 +4235,7 @@ tbody.collapse.show {
 }
 
 .navbar-nav {
+    font-family: noto-Sans;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -8239,6 +8247,7 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
     margin-left: auto !important;
+    padding-top:10px;
 }
 
 @media (min-width: 576px) {
@@ -9785,7 +9794,15 @@ body {
 /* Home Page Style */
 /* 메인 이미지 */
 .ww-home-page {
-    background: url("../images/yj/main.jpg") no-repeat center center;
+    background: url("../images/yj/JSYJ01.jpg") no-repeat center center;
+    background-size: contain;
+    background-position: 50%;
+    height: 100vh;
+    min-height: 480px;
+}
+
+.ww-main {
+    background: url("../images/yj/JSYJ02.jpg") no-repeat center center;
     background-size: contain;
     background-position: 50%;
     height: 100vh;
@@ -9885,7 +9902,7 @@ body {
 
 .ww-nav-bar .nav-item {
     font-size: 18px;
-    padding: 5px 0 5px 16px;
+    padding: 0px 0px 0px 16px;
     font-weight: 500;
 }
 
@@ -10060,7 +10077,7 @@ body {
 }
 
 .ww-section {
-    padding: 100px 0;
+    padding: 0px 0;
 }
 
 .btn-primary {
@@ -10073,6 +10090,7 @@ body {
 
 
 .bottom_right {
+    color : #F59084;
     overflow: hidden;
     position: fixed;
     bottom: 0;
@@ -10081,6 +10099,7 @@ body {
 }
 
 .bottom_left {
+    color : #F59084;
     overflow: hidden;
     position: fixed;
     text-align: right;
