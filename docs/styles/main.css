@@ -16933,9 +16933,7 @@ body {
             background-color: #fff;
         }
 
-        .active:after {
-            content: "\2212";
-        }
+        
 
 
 
@@ -17320,7 +17318,7 @@ body {
 
 
         .slider-2 {
-            height:380px;
+            height:375px;
             position:relative;
             background-color: #000;
         }
@@ -17345,9 +17343,9 @@ body {
             opacity:1;
         }
         
-        @media ( max-width:380px ) {
+        @media ( max-width:375px ) {
             .slider-2 {
-                height:380px;
+                height:375px;
             }
         }
         
