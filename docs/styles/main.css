@@ -9798,6 +9798,7 @@ body {
     background-size: contain;
     background-position: 50%;
     height: 100vh;
+    width: 100%;
     min-height: 480px;
 }
 
