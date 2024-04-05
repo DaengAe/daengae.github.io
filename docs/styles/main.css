@@ -10470,7 +10470,8 @@ body {
 
 .slsbTel-section{
 	padding:1.875rem 0;
-	text-align:center;	
+	text-align:center;
+    min-width: 300px;
 }
 .slsbTel-section .row{
 	margin-top:0.7rem;
@@ -10755,6 +10756,11 @@ body {
 .honjuTel-section .box.first,
 .honjuTel-section .honju-tit + .box{
 	margin-top:1rem;
+}
+.honjuTel-section .box.first,
+.honjuTel-section .box{
+	min-width: 150px;
+    text-align: center;
 }
 .honjuTel-section .box .name{
 	margin-bottom:0.438rem;
