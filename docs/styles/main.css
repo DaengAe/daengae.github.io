@@ -17352,7 +17352,7 @@ body {
 
 
         .slider-2 {
-            height:500px;
+            height:400px;
             position:relative;
             background-color: #fff;
         }
@@ -17379,7 +17379,7 @@ body {
         
         @media ( max-width:640px ) {
             .slider-2 {
-                height:300px;
+                height:20em;
             }
         }
         
@@ -17395,13 +17395,13 @@ body {
             display:inline-block;
             width:15px;
             height:15px;
-            background-color:rgba(255,255,255,0.5);
+            background-color:rgba(200,200,200,0.5);
             border-radius:2px;
             cursor:pointer;
         }
         
         .slider-2 .page-nav > div.active {
-            background-color:rgba(255,255,255,1);
+            background-color:rgba(245,144,132,0.7);
         }
         
         .slider-2>.side-btns>div{
