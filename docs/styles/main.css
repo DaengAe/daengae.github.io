@@ -17318,7 +17318,7 @@ body {
 
 
         .slider-2 {
-            height:375px;
+            height:500px;
             position:relative;
             background-color: #000;
         }
@@ -17343,7 +17343,7 @@ body {
             opacity:1;
         }
         
-        @media ( max-width:375px ) {
+        @media ( max-width:640px ) {
             .slider-2 {
                 height:375px;
             }
