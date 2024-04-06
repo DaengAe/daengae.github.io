@@ -613,3 +613,26 @@ $(".leftBtn").on("touchstart",function(e){
 		
 		$post.click();
 	});
+
+
+
+
+
+
+
+
+
+const DDay = document.querySelector("#DDay");
+
+function find_day(){
+  const christmas = new Date("2024-05-18");  //디데이 설정
+  const today = new Date();  //밀리세컨드 단위의 시간 표시 1초=1000
+  
+  day_gap = christmas - today;  //남은 밀리세컨드 초 값
+  
+  const day = Math.floor(day_gap / (1000*60*60*24));  //디데이까지 남은 밀리세컨드초 / 하루의 밀리세컨드초 = 남은 일수
+  
+  DDay.innerText = `${day}일`;
+}
+find_day();
+setInterval(find_day, 1000*60*60*24);  //일 마다 디데이 기능 실행
