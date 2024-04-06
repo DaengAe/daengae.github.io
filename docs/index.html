@@ -131,6 +131,7 @@ if(findGetParameter('gift')=='false'){
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#invitation">예식 일정 & 장소 안내</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#gallery">사진첩</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#call">연락하기</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#money">마음 전하실 곳</a></li>
                             <li class="nav-item"><a class="nav-link smooth-scroll" href="#map">오시는 길</a></li>
                             
@@ -242,7 +243,9 @@ if(findGetParameter('gift')=='false'){
         
 
         <br><br>
-            <h2 id="gallery" class="h1 text-center pb-3 ww-title" style="font-family: noto-sans kr; font-size: 30px;">Gallery</h2>
+        <div id="gallery" style="background-color: #f7f7f7;">
+            <br><br><br><br>
+            <h2  class="h1 text-center pb-3 ww-title" style="font-family: noto-sans kr; font-size: 30px;">Gallery</h2>
         
 
 
@@ -253,7 +256,7 @@ if(findGetParameter('gift')=='false'){
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
             
             
-            
+            <div style="padding: 10px;">
             <div class="slider-2">
                 
                  <div class="side-btns">
@@ -284,10 +287,13 @@ if(findGetParameter('gift')=='false'){
                     <div></div>
                 </div>
             </div>
+            </div>
+            <br><br><br><br>
+        </div>
 
-        
-        <br>
-        
+
+        <div id="call">
+        <br><br>
 
         <!--// 신랑 신부에게 연락하기 -->
 			<section class="slsbTel-section">
@@ -322,11 +328,10 @@ if(findGetParameter('gift')=='false'){
             
 
 			<!--// 혼주에게 연락하기 -->
-            
+            <hr class="my-hr1">
 			<section class="honjuTel-section">
                 <br>
 				<div class="tit">혼주에게 연락하기</div>
-                <br>
                 
 				<div class="con">
 					<div class="col">
@@ -383,12 +388,14 @@ if(findGetParameter('gift')=='false'){
 					</div>
 				</div>
 			</section>
+        </div>
             
 			<!-- 혼주에게 연락하기 END//-->
-            <br><br><br>
-            <hr class="my-hr1">
+        <div id="money">
+            <br><br><br><br>
             
-            <section id="money"class="money-section">
+        <div style="background-color: #f7f7f7;">
+            <section class="money-section">
                 
                 <br><br>
 				<div class="sec-tit" style="font-size:25px; margin-bottom: 10px;">마음 전하실 곳</div>
@@ -451,6 +458,7 @@ if(findGetParameter('gift')=='false'){
                 </div>
 				
 			</section>
+        
 
             <section class="account-section">
                 
@@ -503,8 +511,10 @@ if(findGetParameter('gift')=='false'){
                   </div>
                 </div>
                 <br><br>
-				<hr class="my-hr1">
+				
 			</section>
+        </div>
+    </div>
 
             
 			<!--// 축의금 계좌번호-->
