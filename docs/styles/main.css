@@ -10723,7 +10723,7 @@ body {
     
 	line-height:2.5rem;
 	text-align:center;
-	background:#f4f4f4;
+	background:#fff;
 }
 .honjuTel-section .con{
     font-size:1rem;
@@ -16981,13 +16981,13 @@ body {
           }
           .body-contentbox p{
             margin-top:20px;
-            margin-left:0px;
+            margin-left:10px;
             margin-bottom:0px;
             text-align:left;
           }
           .body-contentbox2 p{
             margin-top:20px;
-            margin-left:0px;
+            margin-left:10px;
             margin-bottom:0px;
             text-align:left;
           }
@@ -17123,13 +17123,13 @@ body {
             word-break:break-word;
             overflow-y:auto;
             min-height:100px;
-            max-height:250px;
+            max-height:300px;
           }
           .body-contentbox2{
             word-break:break-word;
             overflow-y:auto;
             min-height:100px;
-            max-height:250px;
+            max-height:300px;
           }
           .popup-foot{
             background-color: #ADC19A;
@@ -17352,9 +17352,14 @@ body {
 
 
         .slider-2 {
-            height:400px;
+            
             position:relative;
             background-color: #fff;
+            position: relative;
+            width: 99.05%;
+            height: 0;
+            padding-bottom: 66%;
+            box-shadow: 2px 3px 15px rgba(0,0,0, 0.15);
         }
         
         .slider-2 .slides > div {
@@ -17377,9 +17382,9 @@ body {
             opacity:1;
         }
         
-        @media ( max-width:640px ) {
+        @media ( max-width:100% ) {
             .slider-2 {
-                height:20em;
+                height:100%;
             }
         }
         
