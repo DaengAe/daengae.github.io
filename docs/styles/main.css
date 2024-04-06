@@ -10727,7 +10727,7 @@ body {
 }
 .honjuTel-section .con{
     font-size:1rem;
-	padding:1.563rem 2.250rem 1.875rem;
+	padding:1.563rem 0rem 1.875rem;
 	text-align:center;
 }
 .honjuTel-section .con:after{
@@ -10764,6 +10764,7 @@ body {
 }
 .honjuTel-section .box .name{
 	margin-bottom:0.438rem;
+    text-align: center;
 }
 .honjuTel-section .box .name span{
 	font-family:"Noto Sans KR";
@@ -10771,6 +10772,8 @@ body {
 	font-weight:400;
 	line-height:1.250rem;
 	color:#999;
+    margin:auto;
+    text-align: center;
 }
 .honjuTel-section .box .name strong{
 	font-family:"Noto Sans KR";
@@ -10779,6 +10782,8 @@ body {
 	color:#111;
 	line-height:1.250rem;
 	white-space:pre-wrap;
+    margin:auto;
+    text-align: center;
 }
 .honjuTel-section .honju-btn{
     position: absolute;
