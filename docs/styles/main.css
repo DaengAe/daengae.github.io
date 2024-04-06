@@ -9911,7 +9911,7 @@ body {
 
 .ww-nav-bar .nav-item {
     font-size: 18px;
-    padding: 0px 0px 0px 16px;
+    padding: 5px 0px 0px 16px;
     font-weight: 500;
 }
 
@@ -16981,13 +16981,13 @@ body {
           }
           .body-contentbox p{
             margin-top:20px;
-            margin-left:10px;
+            margin-left:1rem;
             margin-bottom:0px;
             text-align:left;
           }
           .body-contentbox2 p{
             margin-top:20px;
-            margin-left:10px;
+            margin-left:1rem;
             margin-bottom:0px;
             text-align:left;
           }
@@ -17052,6 +17052,8 @@ body {
             padding-top:3px;
             color:#fff;
         }
+
+        
 
           .popup-wrap{
             font-family:Noto Sans KR;
