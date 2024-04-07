@@ -10467,13 +10467,13 @@ body {
           }
           .body-contentbox p{
             margin-top:20px;
-            margin-left:1rem;
+            margin-left:5%;
             margin-bottom:0px;
             text-align:left;
           }
           .body-contentbox2 p{
             margin-top:20px;
-            margin-left:1rem;
+            margin-left:5%;
             margin-bottom:0px;
             text-align:left;
           }
@@ -10941,3 +10941,13 @@ body {
         
         /* 슬라이드 버튼 끝 */
         
+
+
+        .box-left{
+            float: left;
+            padding-left: 5%;
+        }
+        .box-right{
+            float: right;
+            padding-right: 5%;
+        }
