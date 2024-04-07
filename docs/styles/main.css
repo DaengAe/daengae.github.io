@@ -10557,7 +10557,7 @@ body {
           .popup{
             font-family:Noto Sans KR;
             width:100%;
-            max-width:400px;
+            max-width:500px;
             background-color:#ffffff;
             border-radius:10px;
             overflow:hidden;
@@ -10567,7 +10567,7 @@ body {
           .popup2{
             font-family:Noto Sans KR;
             width:100%;
-            max-width:400px;
+            max-width:500px;
             background-color:#ffffff;
             border-radius:10px;
             overflow:hidden;
@@ -10946,8 +10946,13 @@ body {
         .box-left{
             float: left;
             padding-left: 5%;
+            overflow: visible;
         }
         .box-right{
             float: right;
             padding-right: 5%;
+        }
+
+        .body-content .input{
+            
         }
