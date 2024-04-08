@@ -659,7 +659,7 @@ function closePopup() {
 }
 */
 
-
+/*
 
 
     // 쿠키 생성
@@ -693,3 +693,4 @@ function closePopup() {
 		function closePop() { 
 		document.getElementById("popup_layer").style.display = "none";
 		}
+	*/
