@@ -10453,6 +10453,24 @@ body {
         .collapsible2:hover {
             background-color: #F8A8A2;
         }
+
+        .collapsible3 {
+            background:#ADC19A;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px;
+            width: 80%;
+            border: none;
+            text-align: center;
+            outline: none;
+            font-size: 15px;
+            border-radius: 50px 50px 50px 50px;
+        }
+        .active,
+        .collapsible3:hover {
+            background-color: #ADC19A;
+        }
+
         .content {
             padding: 0 18px;
             max-height: 0;
@@ -10968,5 +10986,64 @@ body {
             color:#856c6a;
         }
 
+
+          
+          #popup-sec {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, .7);
+            z-index: 1;
+          }
+          
+          #popup-sec.hide {
+            display: none;
+          }
+          
+          #popup-sec.has-filter {
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+          }
+          
+          #popup-sec .content-second {
+            padding: 60px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+          }
+
+          #popup-sec .content-second .pop-txt{
+            font-family: noto sans kr;
+            font-size: 15px;
+            text-align: center;
+          }
+
+
+          #close-btn{
+
+          }
+
+          #popup_layer {position:fixed;top:0;left:0;z-index: 10000; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4);} 
+/*팝업 박스*/
+.popup_box{position: relative;top:50%;left:50%; width:400px;transform:translate(-50%, -50%);z-index:1002;box-sizing:border-box;background:#fff;box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35);-webkit-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35);-moz-box-shadow: 2px 5px 10px 0px rgba(0,0,0,0.35);}
+/*컨텐츠 영역*/
+.popup_box .popup_cont {padding:50px;line-height:1.4rem;font-size:14px;word-break: break-word;}
+.popup_box .popup_cont h2 {padding:15px 0;color:#333;margin:0;}
+.popup_box .popup_cont p{ border-top: 1px solid #666;padding-top: 30px;}
+/*버튼영역*/
+.popup_box .popup_btn {display:table;table-layout: fixed;width:100%;height:50px;background:#5d5d5d;word-break: break-word;}
+/*닫기 버튼 컬러*/
+.popup_box .popup_btn a {position: relative; display: table-cell; height:50px; color:#fff; font-size:17px;text-align:center;vertical-align:middle;text-decoration:none; background:#102c5c;}
+
+/*하루동안 보지 않기 컬러*/
+.popup_box .popup_btn a.close_day {background:#5d5d5d;}
+.popup_box .popup_btn a.close_day:before, .popup_box .popup_btn a.close_day:after{display:none;}
+/*오버레이 뒷배경*/
+.popup_overlay{position:fixed;top:0px;right:0;left:0;bottom:0;z-index:1001;;background:rgba(0,0,0,0.5);} 
 
         
